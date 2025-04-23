@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f1e1; /* Light beige background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Title Styling */
+.login-content h1 {
+    color: #5c3a21; /* Dark brown */
+    font-size: 2.5rem; /* Slightly smaller font size */
+    margin-bottom: 30px; /* Add more space between title and login form */
+    letter-spacing: 1px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+/* Form Container */
+.container {
+    background-color: #ffffff; /* White background for form */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 380px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #9e7d4e; /* Subtle brown border */
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #7e5a3c; /* Slightly darker brown when focused */
+    outline: none;
+}
+
+/* Label Styling */
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #7e5a3c; /* Dark brown for labels */
+    display: block;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #7e5a3c; /* Dark brown */
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9e7d4e; /* Lighter brown when hovered */
+}
+
+/* Message Styling */
+p {
+    font-size: 0.9rem;
+    color: #5c3a21; /* Dark brown for messages */
+    margin-top: 15px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}

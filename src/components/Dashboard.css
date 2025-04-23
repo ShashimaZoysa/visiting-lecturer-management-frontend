@@ -1,0 +1,77 @@
+/* Container for the entire dashboard */
+.dashboard-container {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: flex-start; /* Align items to the top */
+    width: 100%; /* Full width of the container */
+    height: 100vh; /* Full height of the viewport */
+    padding: 20px; /* Add padding around the container */
+    box-sizing: border-box; /* Include padding in the width/height calculations */
+    background-color: #f4f4f9; /* Light background for better contrast */
+}
+
+/* Main content styling */
+.main-content {
+    width: 100%;
+    max-width: 100%; /* Allow the content to expand fully */
+    background-color: white; /* Background for the content area */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the element's size */
+    height: auto; /* Adjust height dynamically */
+    text-align: left; /* Ensure text inside is left-aligned */
+}
+
+/* Profile heading */
+.main-content h2 {
+    font-size: 24px; /* Heading font size */
+    font-weight: bold;
+    color: #333; /* Dark text color for contrast */
+    margin-bottom: 15px; /* Spacing below the heading */
+    text-align: left; /* Explicitly left-align the heading */
+}
+
+/* Profile info styling */
+.profile-info {
+    margin-top: 10px;
+    text-align: left; /* Ensure all profile text is left-aligned */
+}
+
+/* Each profile field (Name, NIC, Phone, etc.) */
+.profile-info p {
+    font-size: 16px; /* Font size for profile text */
+    color: #555; /* Subtle gray for readability */
+    margin: 6px 0; /* Vertical spacing between fields */
+    text-align: left; /* Ensure text aligns to the left */
+}
+
+/* Bold label for the profile fields */
+.profile-info strong {
+    font-weight: 600;
+    color: #333; /* Dark color for labels */
+    text-align: left; /* Explicitly left-align labels */
+}
+
+/* Add a divider line for visual separation */
+.profile-info p + p {
+    border-top: 1px solid #eee; /* Divider line between fields */
+    padding-top: 8px; /* Padding above the divider */
+}
+
+/* General styling for the page */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Ensure default text alignment is left */
+}
+
+
+
+
+
+
+
+
+
+
